@@ -29,7 +29,18 @@ The intended demographic for this application is veterinary and clerical vet sta
 1. To exit the program, navigate back to the main menu as prompted, use your arrow keys to move down and illuminate the exit prompt. Then simply press the [ enter ] key to run the command.
 
 <u><b>Note</b></u>:
-The user may exit the app at any time using [ ctrl ] + [ c ]
+- The user may exit the app at any time using [ ctrl ] + [ c ]
+- if the above installation does not work for you, you can manually install each gem using the commands once you are within the src folder:
+
+        gem install bundler 
+
+        bundle install 
+
+        gem install tty-font
+
+        gem install tty-prompt
+
+        gem install rainbow
 
 ###  Features 
 The intended use for this application is to output information based on the selected items. VetFriend features navigation options such as, viewing existing client or "Friend" information, adding new client/ "Friend" details and also viewing the doctor information.
