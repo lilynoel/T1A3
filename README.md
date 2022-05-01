@@ -30,18 +30,7 @@ The intended demographic for this application is veterinary and clerical vet sta
 
 <u><b>Note</b></u>:
 - The user may exit the app at any time using [ ctrl ] + [ c ]
-- if the above installation does not work for you, you can manually install each gem using the commands once you are within the src folder:
-
-        gem install bundler 
-
-        bundle install 
-
-        gem install tty-font
-
-        gem install tty-prompt
-
-        gem install rainbow
-
+  
 ###  Features 
 The intended use for this application is to output information based on the selected items. VetFriend features navigation options such as, viewing existing client or "Friend" information, adding new client/ "Friend" details and also viewing the doctor information.
 
@@ -49,7 +38,7 @@ Future plans for this app include assigning friends to a doctor based on doctor 
 
 ### Walk-through
 
-![WelcomePage](./docs/welcome-page.png)
+![WelcomePage](./docs/welcome.png)
 ![MainMenu](./docs/main-menu.png)
 ![NewFriend](./docs/new-friend.png)
 ![Profile](./docs/profile.png)
@@ -84,6 +73,20 @@ This app has the following dependencies:
 4. To run the app, use this command:
             
         ruby main.rb
+
+<u><b>Note</b></u>:
+        - alternatively, you can manually install each gem using the commands below once you are within the src folder:
+
+        gem install bundler 
+
+        bundle install 
+
+        gem install tty-font
+
+        gem install tty-prompt
+
+        gem install rainbow
+
 
 ### Et Voila! ✨
 ![Logo](./docs/vf.png) 
