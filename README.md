@@ -76,7 +76,8 @@ This app has the following dependencies:
 
 <u><b>Note</b></u>:
 
-   - alternatively, you can manually install each gem using the commands below once you are within the src folder:
+- alternatively, you can manually install each gem using the commands below once you are within the src folder:
+
 
         gem install bundler 
 
